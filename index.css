@@ -5,9 +5,20 @@
 }
 
 #github-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
   list-style: none;
 }
+
+.avatar{
+height: 200px;
+width: 200px;
+border-radius: 50% !important;
+}
+
